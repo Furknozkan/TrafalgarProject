@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 56px 180px;
+}
+
+.container .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+
+}
+
+.container .logo{
+    width: 160px;
+    height: 40px;
+}
+.container .header .navigation .navigation-items{
+    display: flex;
+}
+.container .header .navigation .navigation-items li a{
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    margin: 0 20px;
+}
+
+.container .header .navigation .navigation-items li a.active{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.container .element{
+    position: absolute;
+    left: 0;
+}
+
+.container .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+.container .hero-container .left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.container .hero-container .left p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin-right: 109px;
+    margin-bottom: 40px;
+}
+.container .hero-container .left .btn{
+    margin-top: 40px;
+    background-color: #458FF6;
+    width: 200px;
+    height: 60px;
+    padding: 8px 20px;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    border-radius: 40px;
+}
+.container .hero-container .right{
+    width: 693px;
+    height: 598px;
+}
