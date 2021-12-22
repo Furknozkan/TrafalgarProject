@@ -433,3 +433,109 @@ a{
     height: 120px;
     margin-bottom: 40px;
 }
+
+/* CUSTOMER FEEDBACK */
+
+.card-wrapper{
+    margin-top: 266px;
+    display: flex;
+}
+
+.card-wrapper .card{
+    width: 1120px;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+border-radius: 24px;
+position: relative;
+}
+
+.card-wrapper .card .title{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-wrapper .card .title .title-text{
+    line-height: 48px;
+    color: #FFFFFF;
+    width: 522px;
+    height: 48px;
+    margin: 0 auto;    
+    margin-top: 64px;
+    margin-bottom: 25px;
+}
+
+.card-wrapper .card .title .title-border{
+    border: 1px solid #FFFFFF;
+    width: 56px;
+    margin: 0 auto;
+}
+
+.card-wrapper .card .content{
+    margin-top: 77px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-wrapper .card .content .left{
+    margin-left: 118px;
+   
+    
+}
+
+.card-wrapper .card .content .left .user-info{
+    margin: 0 auto;
+    margin-left: 175px;   
+}
+
+.card-wrapper .card .content .left .user-info .name{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.card-wrapper .card .content .left .user-info .title{
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top: -15px;
+}
+
+.card-wrapper .card .content .right{
+}
+.card-wrapper .card .content .right .content-text{
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 420px;
+    height: 120px;
+    margin-left: 10rem;
+}
+
+.vectors{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.vectors .arrow-back{
+    transform: rotate(-180deg);
+    opacity: 0.4;
+}
+.vectors .darts{
+    display: flex;
+}
+.vectors .darts .ellipse{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5B9BF3;
+    opacity: 0.4;
+    margin-right: 5px;
+    
+}
+
+.vectors .darts .ellipse.active{
+    opacity: 1;
+}
