@@ -142,7 +142,6 @@ a{
     flex-direction: row;
     z-index: 999;
     justify-content: space-between;
-    align-items: center;
 }
 .container .services .boxs .boxs-top .box1{
     margin-right: 32px;
@@ -160,7 +159,8 @@ a{
 
 .container .services .boxs .boxs-top .box1 .title{
     margin-top: 45px;
-    margin-left: 39px;
+    margin-left: 29px;
+    margin-right: 100px;
 }
 .container .services .boxs .boxs-top .box1 .content{
     margin-left: 39px;
@@ -193,6 +193,7 @@ a{
 .container.container .services .boxs .boxs-top .box2 .title{
     margin-top: 45px;
     margin-left: 39px;
+    margin-right: 50px;
 }
  .services .boxs .boxs-top .box2 .content{
     margin-left: 39px;
@@ -223,6 +224,7 @@ a{
 .container.container .services .boxs .boxs-top .box3 .title{
     margin-top: 45px;
     margin-left: 39px;
+    margin-right: 120px;
 }
  .services .boxs .boxs-top .box3 .content{
     margin-left: 39px;
@@ -265,6 +267,7 @@ a{
 .container .services .boxs .boxs-bottom .box4 .title{
     margin-top: 45px;
     margin-left: 39px;
+    margin-right: 130px;
 }
 .container .services .boxs .boxs-bottom .box4 .content{
     margin-left: 39px;
@@ -295,6 +298,7 @@ a{
 .container .services .boxs .boxs-bottom .box5 .title{
     margin-top: 45px;
     margin-left: 39px;
+    margin-right: 60px;
 }
 .container .services .boxs .boxs-bottom .box5 .content{
     margin-left: 39px;
@@ -325,6 +329,7 @@ a{
 .container.container .services .boxs .boxs-bottom .box6 .title{
     margin-top: 45px;
     margin-left: 39px;
+    margin-right: 200px;   
 }
  .services .boxs .boxs-bottom .box6 .content{
     margin-left: 39px;
@@ -532,10 +537,232 @@ position: relative;
     border-radius: 50%;
     background: #5B9BF3;
     opacity: 0.4;
-    margin-right: 5px;
-    
+    margin-right: 5px;   
 }
 
 .vectors .darts .ellipse.active{
     opacity: 1;
+}
+
+/*  ARTICLES  */
+
+.articles{
+    margin-top: 222px;
+   
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.articles .title .article-title{
+    text-align: center;
+    font-size: 34px;
+    line-height: 56px;
+    margin-bottom: 26px;
+    font-weight: bold;
+color: #000000;
+}
+
+.articles .title .border{
+    border: 0.5px solid #000000;
+    background-color: #000000;
+    width: 56px;
+    margin: 0 auto;
+    margin-bottom: 79px;
+}
+
+.articles .cards{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 69px;
+}
+.articles .cards .card{
+    display: flex;
+   flex-direction: column;
+   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+   margin-right: 37px;
+}
+.articles .cards .card .img img{
+    border-radius: 20px 20px 0 0;
+}
+.articles .cards .card .title{
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    width: 251px;
+    height: 64px;
+    margin-left: 20px;
+}
+
+.articles .cards .card .content{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    width: 266px;
+    height: 84px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.articles .cards .card .btn{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 190px;
+    align-items: center;
+}
+
+
+.articles .cards .card .btn img{
+    width: 14px;
+    height: 9px;
+}
+
+
+.articles .cards .card .btn a{
+    color: #4089ED;
+    margin-right: 3px;
+    margin-bottom: 15px;
+}
+
+
+.articles .btn .white-btn{
+    margin-left: 500px;
+}
+
+/*    FOOTER    */
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+}
+
+.footer .texts{
+    position: absolute;
+    left: 75;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .texts .trafalgar{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer .texts .trafalgar .title{
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+    margin-bottom: 22px;
+}
+
+.footer .texts .trafalgar .title .logo{
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: #5B9BF3;
+    margin-right: 10px;
+}
+
+.footer .texts .trafalgar .title .title-text{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.footer .texts .trafalgar .contents .content{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 400px;
+    height: 84px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.footer .texts .trafalgar .contents .copyright{
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 95px;
+}
+
+.footer .texts .company{
+    margin-left: 125px;
+
+}
+
+.footer .texts .company .title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.footer .texts .company .titles ul li{
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer .texts .region{
+    margin-left: 125px;
+
+}
+
+.footer .texts .region .title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.footer .texts .region .titles ul li{
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer .texts .help{
+    margin-left: 125px;
+
+}
+
+.footer .texts .help .title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-right: 90px;
+
+}
+
+.footer .texts .help .titles ul li{
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
